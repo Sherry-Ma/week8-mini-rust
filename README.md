@@ -1,6 +1,12 @@
-# rust-new-project-template
-A good starting point for a new Rust project
+# Week8 mini rust project -- Word Count
+This mini project is a command line tool that count words in a file
 
-## References
+To run the program, compile it with rustc command: `rustc word_count.rs`
 
-* [rust-cli-template](https://github.com/kbknapp/rust-cli-template)
+This will create an executable file named word_count. You can then run the program and provide a filename:
+ 
+```
+$ ./word_count file.txt
+Total word count: 209
+```
+
